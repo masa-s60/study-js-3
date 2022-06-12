@@ -2,7 +2,8 @@ const taskHead =
 `===========================
 現在持っているタスクの一覧
 ===========================`;
-const taskList = [`掃除`, `買い物`, `散歩`];
+
+const taskList = ['掃除', '買い物', '散歩'];
 
 function newTask(addTask) {
   taskList.push(addTask);
@@ -17,6 +18,6 @@ for (let i = 0; i < taskList.length; i++) {
   console.log(`${i}：${taskList[i]}`);
 }
 
-const inputTask = prompt(`タスクを入力して下さい`);
+const inputTask = prompt('タスクを入力して下さい');
 newTask(inputTask);
-const selectTask = prompt(`「確認」「追加」「削除」「終了」の４つのいずれかを入力してください`);
+const selectTask = prompt('「確認」「追加」「削除」「終了」の４つのいずれかを入力してください');
