@@ -4,12 +4,19 @@ const title =
 ===========================`;
 const taskList = ['掃除', '買い物', '散歩'];
 
-function display_taskList() {
+const display_taskList = () => {
   console.log(title);
   for (let i = 0; i < taskList.length; i++) {
     console.log(`${i}：${taskList[i]}`);
   }
-}
+};
+
+// function display_taskList() {
+//   console.log(title);
+//   for (let i = 0; i < taskList.length; i++) {
+//     console.log(`${i}：${taskList[i]}`);
+//   }
+// }
 
 const newTask = (addTask) => {
   taskList.push(addTask);
