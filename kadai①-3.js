@@ -13,6 +13,10 @@ const displayTaskList = () => {
   });
   i = 0;
 }
+/* 
+「上記のforEach文、ロジックや使い方など問題ないでしょうか。」
+このようにコメントを使用した質問方法、という事で間違いないでしょうか？
+*/
 
 const newTask = (addTask) => {
   taskList.push(addTask);
